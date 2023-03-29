@@ -26,7 +26,7 @@ import AboutAuthor from "./components/author/about";
 import CreateAuthor from "./components/author/create";
 
 function App() {
-  console.log("API url", process.env.PUBLIC_URL);
+  console.log("API url", process.env.REACT_APP_API_URL);
   return (
     <div className="App">
       <Routes>
